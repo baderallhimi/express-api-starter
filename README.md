@@ -70,6 +70,21 @@ router.post("/claude", async (req, res) => {
   res.json(data);
 });
 
+## Claude Integration (New)
+This project includes a ready‑to‑use Claude API integration inside:
+
+src/claude-example.js
+
+Developers can send prompts to Claude using a simple POST request:
+
+POST /api/claude
+{
+  "prompt": "Hello Claude!"
+}
+
+The Claude route is fully implemented and demonstrates how to integrate AI models into Express APIs.  
+This makes the project useful for developers who want to build AI‑powered SaaS tools using Claude.
+
 ## Why This Project Fits Claude OSS
 - Fully open‑source
 - Real working backend code
@@ -79,5 +94,5 @@ router.post("/claude", async (req, res) => {
 - Suitable for building real SaaS tools powered by Claude
 
 ## License
-MIT License
+MIT License  
 Fully open‑source.
